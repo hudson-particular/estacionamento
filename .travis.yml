@@ -2,7 +2,7 @@ language: java
 jdk:
   - oraclejdk20
 before_install:
-  - chmod +x mvn
+  - chmod +x mvnw
 services:
   - docker
 install: true
